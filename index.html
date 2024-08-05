@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>タウン・デジボ</title>
+</head>
+<body>
+  <script>
+    window.onload = function() {
+      const userAgent = navigator.userAgent
+      if (/iPhone|iPad|Mac/.test(userAgent)) {
+        window.location.href = 'https://apps.apple.com/jp/app/id6477810877'
+      } else {
+        window.location.href = 'https://play.google.com/store/apps/details?id=jp.co.esm.sakinokoto.towndigibo'
+      }
+    }
+  </script>
+</body>
+</html>
